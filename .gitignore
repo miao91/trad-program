@@ -1,0 +1,24 @@
+# 排除环境变量文件
+.env
+
+# 排除IDE配置文件
+.vscode/
+.idea/
+
+# 排除Python缓存文件和虚拟环境
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+
+# 排除本地生成的可执行文件
+*.exe
+
+# 排除压缩包和二进制文件
+nssm-2.24/
+nssm.zip
+
+# 排除日志文件
+*.log
